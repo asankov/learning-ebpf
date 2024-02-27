@@ -77,6 +77,8 @@ Try it in [hello-tail.py](./hello-tail.py), like this:
 You should see that BCC automatically creates the attachment and the program works exactly the same.
 This is an example of the many convenient macros that BCC provides.
 
+**Solution:** [Here](./hello-tail-ex-4.py)
+
 ### Exercise 5
 
 You could further adapt [hello_map.py](./hello-map.py) so that the key in the hash table identifies a particular syscall (rather than a particular user).
