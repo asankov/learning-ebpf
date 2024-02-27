@@ -83,3 +83,5 @@ This is an example of the many convenient macros that BCC provides.
 
 You could further adapt [hello_map.py](./hello-map.py) so that the key in the hash table identifies a particular syscall (rather than a particular user).
 The output will show how many times that syscall has been called across the whole system.
+
+**Solution:** [Here](./hello-map-ex-5.py)
