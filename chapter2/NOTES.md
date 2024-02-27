@@ -64,6 +64,8 @@ ID 104: 6 ID 101: 34 ID 100: 45 ID 0: 368 ID 501: 38
 ID 104: 6 ID 101: 34 ID 100: 45 ID 0: 533 ID 501: 57
 ```
 
+**Solution:** [Here](./hello-map-ex-3.py)
+
 ### Exercise 4
 
 The `RAW_TRACEPOINT_PROBE` macro provided by BCC simplifies attaching to raw tracepoints, telling the user space BCC code to automatically attach it to a specified tracepoint.
