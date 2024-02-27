@@ -39,6 +39,8 @@ b.attach_kprobe(event=syscall, fn_name="hello")
 
 Adapt the [hello-buffer.py](./hello-buffer.py) eBPF program to output different trace messages for odd and even process IDs.
 
+**Solution:** [Here](./hello-buffer-ex-1.py)
+
 ### Exercise 2
 
 Modify [hello-map.py](./hello-map.py) so that the eBPF code gets triggered by more than one syscall.
