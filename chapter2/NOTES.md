@@ -48,6 +48,8 @@ For example, `openat()` is commonly called to open files, and `write()` is calle
 You can start by attaching the hello eBPF program to multiple syscall kprobes.
 Then try having modified versions of the hello eBPF program for different syscalls, demonstrating that you can access the same map from multiple different programs.
 
+**Solution:** [Here](./hello-map-ex-2.py)
+
 ### Exercise 3
 
 The [hello-tail.py](./hello-tail.py) eBPF program is an example of a program that attaches to the `sys_enter` raw tracepoint that is hit whenever any syscall is called.
