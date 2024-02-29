@@ -407,7 +407,7 @@ You can also use `bpftool prog dump` commands to see the bytecode and machine co
 - [hello-tail.py](../chapter2/hello-tail.py)
 
   ```console
-    $ sudo bpftool prog show
+  $ sudo bpftool prog show
     ...
     328: raw_tracepoint  name hello  tag 9b77eaf7d1a6840f  gpl
         loaded_at 2024-02-29T12:46:32+0200  uid 0
