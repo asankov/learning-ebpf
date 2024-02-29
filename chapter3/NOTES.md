@@ -430,7 +430,7 @@ You can also use `bpftool prog dump` commands to see the bytecode and machine co
         btf_id 432
         pids python3(95416)
 
-    $ sudo bpftool prog dump xlated name hello
+  $ sudo bpftool prog dump xlated name hello
     int hello(struct bpf_raw_tracepoint_args * ctx):
     ; int opcode = ctx->args[1];
     0: (79) r6 = *(u64 *)(r1 +8)
@@ -457,7 +457,7 @@ You can also use `bpftool prog dump` commands to see the bytecode and machine co
     18: (b7) r0 = 0
     19: (95) exit
 
-    $ sudo bpftool prog dump jited name hello
+  $ sudo bpftool prog dump jited name hello
     int hello(struct bpf_raw_tracepoint_args * ctx):
     bpf_prog_9b77eaf7d1a6840f_hello:
     ; int opcode = ctx->args[1];
